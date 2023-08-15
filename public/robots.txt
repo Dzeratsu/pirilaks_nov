@@ -1,0 +1,5 @@
+User-Agent: *
+allow: /
+
+Host: https://pirilaks.ru
+Sitemap: https://pirilaks.ru/sitemap.xml

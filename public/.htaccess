@@ -1,0 +1,4 @@
+RewriteEngine on
+  
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://pirilaks.ru [R=301,L]
