@@ -1,11 +1,15 @@
 <template>
 <div class="banner">
+  <a href="https://nort-udm.ru/">
     <div class="banner__text">
+<!--
         <h1>ОГНЕБИОЗАЩИТНЫЕ СОСТАВЫ <br> ДЛЯ ДРЕВЕСИНЫ</h1>
         <a href="https://www.nort-udm.ru/"><lazy-component><img src="~@/assets/button.png"></lazy-component></a>
         <p>традиционное качество <br> в новой упаковке</p>
+-->
 
         </div>
+  </a>
 </div>
 </template>
 <script>
@@ -18,7 +22,7 @@ export default {
     display: block;
     margin: 0 auto;
     max-width: 1520px;
-    background: url('~@/assets/bannerTara.png')no-repeat;
+    background: url('~@/assets/banner2.jpg')no-repeat;
     height: 100%;
     background-size:contain;
 }
@@ -48,7 +52,7 @@ export default {
     display: block;
     margin: 0 auto;
     max-width: 1440px;
-    background: url('~@/assets/bannerTara.png')no-repeat;
+    background: url('~@/assets/banner2.jpg')no-repeat;
     height: 100%;
     background-size:contain;
 }
