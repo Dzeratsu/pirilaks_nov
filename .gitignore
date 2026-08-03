@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-/dist
+# /dist — production build tracked to match server
 
 
 # local env files
