@@ -1,4 +1,5 @@
 <template>
+<apologyOverlay/>
 <headFooter v-bind:item="item" v-bind:social="social">
 <div>
 <banner/>
@@ -19,6 +20,7 @@ import titleLine from '@/components/titleLine'
 import slider from '@/components/slider.vue'
 import catalog from '@/components/catalog.vue'
 import firetest from '@/components/firetest.vue'
+import apologyOverlay from '@/components/apologyOverlay.vue'
 
 export default {
   name: 'App',
@@ -48,7 +50,8 @@ export default {
     titleLine,
     slider,
     catalog,
-    firetest
+    firetest,
+    apologyOverlay
   }
 }
 </script>
