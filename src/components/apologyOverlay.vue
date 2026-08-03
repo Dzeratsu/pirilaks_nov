@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import desktopSrc from '@/assets/apology-banner-desktop.jpg'
+import desktopSrc from '@/assets/apology-banner-desktop.png'
 import mobileSrc from '@/assets/apology-banner-mobile.png'
 
 export default {
