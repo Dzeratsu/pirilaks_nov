@@ -24,3 +24,6 @@ pnpm-debug.log*
 
 # Server-only legacy mirror of dist
 dev/
+
+# Local deploy key material
+.deploy-tmp/
